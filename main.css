@@ -1,10 +1,33 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
-.num{
 
-      width:100%;
-      height: 120px;
-      background-image:url('image/top_1.jpg');
-    background-repeat: repeat;}
+#ad {
+  width: 100%;
+  height: 80px;
+  background-color: #df7b87;
+}
+
+.ad_img {
+  width: 980px;
+  height: 80px;
+  background-image: url('image/ad.jpg');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  margin-left: -490px;
+}
+
+#top {
+  width: 100%;
+  height: 30px;
+  background-color: #f9f5c6;
+}
+
+.num {
+  width: 100%;
+  height: 120px;
+  background-image: url('image/top_1.jpg');
+  background-repeat: repeat;
+}
