@@ -5,8 +5,31 @@ body {
 
 }
 
-@font-face{font-family:'Nanum Gothic'; src:url('/fonts/NanumGothic-Bold.woff')}
-@font-face{font-family:'Nanum Gothic'; src:url('/fonts/NanumGothic-Bold.eot')}
+/*
+ * Nanum Gothic (Korean) http://www.google.com/fonts/earlyaccess
+ */
+@charset "utf-8";
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url(./NanumGothic-Regular.eot);
+  src: url(./NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./NanumGothic-Regular.woff2) format('woff2'),
+       url(./NanumGothic-Regular.woff) format('woff'),
+       /*url(./NanumGothic-Regular.ttf) format('truetype');*/
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: bold;
+  src: url(./NanumGothic-Bold.eot);
+  src: url(./NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(./NanumGothic-Bold.woff2) format('woff2'),
+       url(./NanumGothic-Bold.woff) format('woff'),
+       /*url(./NanumGothic-Bold.ttf) format('truetype');*/
+}
+
 
 body, table, div, p {font-family:'Nanum Gothic';}
 
@@ -32,8 +55,8 @@ hr{
   background-repeat: no-repeat;
   position: relative;
   left: 50%;
-  top:20px;
-  margin-left: -490px;
+  top:31px;
+  margin-left: -470px;
 }
 
 .cult{
@@ -70,6 +93,207 @@ hr{
   height: 30px;
   background-color: #fdfcf0;
 }
+#top2 {
+
+  width: 100%;
+  height: 60px;
+  background-color: #fdfcf0;
+}
+
+.fixed{
+    width: 110px;
+    height: 580px;
+    background-color: #fdfcf0;
+    position: fixed;
+    z-index: 400000000000;
+    left:50%;
+    top:205px;
+    margin-left: 490px;
+    border-radius: 15px;
+    border: 8px solid red;
+}
+
+#top2>img{
+  width: 54px;
+  height: 50px;
+  padding: 0;
+
+  position:relative;
+  left: 50%;
+  margin-left:   -605px;
+  top:-57px;
+}
+ .message{
+   width:700px;
+   height: 60px;
+color:rgb(111, 111, 111);
+     font-size: 1.5em;
+     font-family: 'Nanum Gothic';
+     position: relative;
+     left:50%;
+     text-align: left;
+margin-left: -240px;
+     font-weight: bold;
+     top: 12px;
+ }
+.f_1{
+    width: 100px;
+    height: 83px;
+    margin-left: 6px;
+    margin-top: 10px;
+    border-bottom: 3px double pink;
+}
+
+.f_1 img{
+   margin-left: 5px;
+
+}
+
+.f_2 img{
+   margin-left: -3px;
+   margin-top: 9px;
+}
+
+.menu_1{
+  width: 442px;
+ height: 30px;
+
+ position: relative;
+ left: 50%;
+ margin-left: -460px;
+ float: left;
+ font-size: 0.7em;
+
+
+}
+.n1{width: 85px;
+  height: 30px;
+  border-right:2px solid rgb(144, 144, 144);
+  float: left;
+border-left:2px solid rgb(144, 144, 144);
+}
+.n1 p{
+  font-family: Helvetica;
+  font-weight: 600;
+  position:relative;
+  top:-7px;
+}
+.n1 img{
+   float: left;
+   margin-top: 5px;
+   margin-left: 7px;
+}
+.n1t{
+   float: left;
+   margin-top: 5px;
+   margin-left: 3px;
+   color: gray;
+}
+
+.n2{width: 59px;
+  height: 30px;
+  border-right:2px solid gray;
+  float: left;
+}
+.n2 p{
+  font-family: Helvetica;
+  font-weight: 600;
+  position:relative;
+  top:-7px;
+}
+.n2 img{
+   float: left;
+   margin-top: 5px;
+   margin-left: 7px;
+}
+.n2t{
+   float: left;
+   margin-top: 5px;
+   margin-left: 3px;
+   color: gray;
+}
+
+.n3{width: 71px;
+  height: 30px;
+  border-right:2px solid gray;
+  float: left;
+}
+
+.n3 p{
+  font-family: Helvetica;
+  font-weight: 600;
+  position:relative;
+  top:-7px;
+}
+.n3 img{
+   float: left;
+   margin-top: 5px;
+   margin-left: 7px;
+}
+.n3t{
+   float: left;
+   margin-top: 5px;
+   margin-left: 3px;
+   color: gray;
+}
+
+.n4{width: 97px;
+  height: 30px;
+  border-right:2px solid gray;
+  float: left;
+}
+
+.main{
+  float: left;
+  font-family: 'Nanum Gothic';
+  font-size: 1.6em;
+  font-weight: 900;
+  position: relative;
+  left: 50%;
+  margin-left: -180px;
+  top:-98px;
+  letter-spacing: -0.1em;
+}
+.main div{
+  float: left;
+  margin-right: 55px;
+}
+
+.m_1{
+
+
+}
+.m_2{
+
+
+}
+.m_3{
+
+
+}
+.m_4{
+
+
+}
+
+.n4 p{
+  font-family: 'Nanum Gothic';
+  font-weight: 600;
+  position:relative;
+  top:-8px;
+  font-weight: bold;
+}
+.n4 img{
+   float: left;
+   margin-top: 2px;
+   margin-left: 3px;
+}
+.n4t{
+   float: left;
+   margin-top: 5px;
+   margin-left: 3px;
+   color: gray;
+}
 
 .num {
   width: 100%;
@@ -81,7 +305,7 @@ hr{
 .section{
   width: 100%;
   height: 880px;
-  border: 2px solid black;
+
   background-color: #fdfcf0;
   margin: 0;
   margin-top: 14px;
@@ -120,6 +344,15 @@ hr{
   margin-left: -459px;
   z-index: 20;
 
+}
+
+.box{
+   width: 920px;
+   height: 446px;
+   position: relative;
+   left: 50%;
+   top:-12px;
+   margin-left: -460px;
 }
 
 .right{z-index: 50;
@@ -254,7 +487,7 @@ cursor: pointer;
    background-color: black;
    position: relative;
    left: 50%;
-  top:-291px;
+  top:-301px;
   margin-left: -202px;
 
 }
@@ -332,7 +565,7 @@ cursor: pointer;
   height: 284px;
   border: 1px solid black;
   margin: 2px;
-  background-image: url('image/11_1.jpg');
+  background-image: url('image/11_3.jpg');
   background-repeat: no-repeat;
   z-index: 1000;
 }
@@ -372,11 +605,11 @@ font-weight: bold;
   height:220px;
   background-color: #fff4d4;
   position: relative;
-  top:1000px;
+  top:977px;
 }
 
 .gong2{
-  width: 1000px;
+  width: 960px;
   height: 57px;
   background-image: url('image/2222.jpg');
   background-repeat: no-repeat;
@@ -387,6 +620,9 @@ font-weight: bold;
   top:9px;
   margin-left: -460px;
   z-index: 514214414;
+}
+.gong2 img{
+  width: 960px;
 }
 .gong3{
   width: 1000px;
@@ -409,7 +645,7 @@ top:1900px;
     border-bottom: 1px solid black;
     z-index: 514214414;
     position: relative;
-    top:1020px;
+    top:977px;
   }
 
 .bwall{
@@ -417,7 +653,7 @@ top:1900px;
   height: 118px;
 
 position: relative;
-top: 890px;
+top: 739px;
   background-image: url('image/bwall.jpg');
   background-repeat: repeat;
 
@@ -435,20 +671,20 @@ top: 890px;
 }
 .sora{width: 1800px;
 position: relative;
-top: 420px;
-left: -280px;
+top: 380px;
+left: -285px;
 }
 .sora li{margin: 0px;
 border-right: 1px solid gray;
-padding-right:8px;;
-padding-left: 8px;
+padding-right:7px;;
+padding-left: 7px;
     float: left;
     z-index: 50000000000000000;
 font-weight: bold;
-letter-spacing: -3px;
+letter-spacing: -0.1em;
 list-style: none;
 color: gray;
-font-size: 0.9em;
+font-size: 0.8em;
 }
 
 .cgv_2{
@@ -457,8 +693,8 @@ font-size: 0.9em;
     background-image: url('image/123.png');
     background-repeat: no-repeat;
     position: relative;
-    top:460px;
-    left:11px;
+    top:420px;
+    left:5px;
 
 }
 
@@ -467,7 +703,7 @@ font-size: 0.9em;
   height: 130px;
   position: relative;
 
-  top:365px;
+  top:325px;
   left:110px;
 }
 
@@ -475,11 +711,10 @@ font-size: 0.9em;
   width: 100px;
   height: 30px;
   position: relative;
-border: 1px solid red;
-background-color: blue;
 
-  top:220px;
-  left:590px;
+
+  top:180px;
+  left:649px;
 }
 
 .search{
@@ -488,20 +723,26 @@ background-color: blue;
 
     border:2px solid gray;
     position: relative;
-    top:190px;
-    left:700px;
+    top:149px;
+    left:755px;
     text-align: left;
 float: left;
+text-align: center;
+
+}
+.search p{
+  margin-top: 3px;
 }
 .go{
+  text-align: center;
   width: 30px;
   height: 30px;
 color: white;
 background-color: gray;
   border:2px solid gray;
   position: relative;
-  top:180px;
-  left:800px;
+  top:149px;
+  left:758px;
   text-align: left;
   float: left;
 }
@@ -510,4 +751,89 @@ background-color: gray;
   line-height: 0.3em;
   letter-spacing: 0.1px;
   font-size: 0.7em;
+}
+
+.log{
+
+
+  height: 10px;
+  margin-top: 5px;
+
+  float: left;
+  position: relative;
+  left: 50%;
+  margin-left: 53px;
+  top:5px;
+  font-size: 0.7em;
+  font-weight: bold;
+  letter-spacing: -0em;
+}
+
+.u{
+  float: left;
+
+margin-left: 4px;
+margin-right: 1px;
+border-right: 2px solid rgb(144, 144, 144);
+}
+
+.inout{
+
+font-family: 'Nanum Gothic';
+font-size: 1.0em;
+  width: 40px;
+  height: 13px;
+  font-weight: 900;
+
+}
+
+.inout p{
+  position: relative;
+  top:-13px;
+}
+.myc{
+font-family: Helvetica;
+
+  width:48px;
+  height: 13px;
+  font-weight: 600;
+}
+
+.vip{
+  font-family: Helvetica;
+  font-weight: 600;
+    width: 6.7em;
+height: 13px;
+}
+.club p{
+  position: relative;
+  top:-13px;
+}
+.club{
+   width: 62px;
+   font-family: Helvetica;
+   font-weight: 600;height: 13px;
+}
+.center p{
+  position: relative;
+  top:-13px;
+}
+.center{
+   width:50px;
+   font-family: 'Nanum Gothic';
+   font-weight: 600;height: 13px;
+}
+
+.eng{
+   width: 116px;
+   font-family: Helvetica;
+   font-weight: 600;
+   height: 13px;
+}
+.eng p{
+  position: relative;
+  top:-14px;
+  letter-spacing: -0.09em;
+  font-size: 1.1em;
+  color: orange;
 }
